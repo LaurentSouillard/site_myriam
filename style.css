@@ -1,0 +1,59 @@
+/* GENERAL */
+
+*, ::after, ::before{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    width: 1903 !important;
+}
+
+body {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: aquamarine !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+    margin: 0 !important;
+}
+
+/* SECTION UNE */
+#divBleu, #divJaune, #divRouge {
+    display: flex;
+    justify-content: center;
+}
+
+
+#containerUn {
+    display: flex;
+    justify-content:space-between;
+    /*flex-wrap: nowrap;*/
+}
+/*******************************************/
+/* SECTION DEUX */
+
+#containerDeux {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1.5rem 1fr; 
+    grid-template-rows: 1fr 1px 1fr 1px 1fr; 
+}
+
+#containerTrois {
+    display: block;
+    
+}
+
+#articleUn {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#articleDeux {
+    background-color: blue;
+    color: antiquewhite;
+}
